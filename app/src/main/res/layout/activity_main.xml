@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16sp"
-        android:text="Quantity"
+        android:text=" Quantity"
         android:textAllCaps="true" />
 
     <LinearLayout
@@ -46,14 +46,14 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16sp"
         android:layout_marginTop="16sp"
-        android:text="price"
+        android:text=" price"
         android:textAllCaps="true" />
 
     <TextView
         android:id="@+id/price_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="$0"
+        android:text=" $0"
         android:textAllCaps="true" />
 
 

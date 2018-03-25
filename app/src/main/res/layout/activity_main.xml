@@ -15,8 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Enter your name"
-            android:inputType="textCapWords"
-            />
+            android:inputType="textCapWords" />
 
         <TextView
             android:layout_width="wrap_content"

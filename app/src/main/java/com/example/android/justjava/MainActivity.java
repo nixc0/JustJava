@@ -1,5 +1,5 @@
 /**
- * IMPORTANT: Make sure you are using the correct package name. 
+ * IMPORTANT: Make sure you are using the correct package name.
  * This example uses the package name:
  * package com.example.android.justjava
  * If you get an error when copying this code into Android studio, update it to match teh package name found
@@ -7,7 +7,6 @@
  **/
 
 package com.example.android.justjava;
-
 
 
 import android.os.Bundle;
@@ -36,21 +35,21 @@ public class MainActivity extends AppCompatActivity {
     /**
      * This method will create a summary of the order to display on the screen
      */
-    private String createOrderSummary (String name, int price, boolean addWhippedCream, boolean addChocolate){
+    private String createOrderSummary(String name, int price, boolean addWhippedCream, boolean addChocolate) {
         String priceMessage = "Name: " + name;
         priceMessage += "\nAdd whipped cream? " + addWhippedCream;
         priceMessage += "\nAdd chocolate? " + addChocolate;
         priceMessage += "\nQuantity: " + quantity;
         priceMessage += "\nTotal: $" + price;
         priceMessage += "\nThank you!";
-        return  priceMessage;
+        return priceMessage;
     }
 
 
     /**
      * This method returns the value of the calculated price
      */
-    private int calculatePrice(){
+    private int calculatePrice() {
         return quantity * 5;
     }
 
@@ -92,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * This method is called when the increment button is clicked.
      */
-    public void increment(View view){
+    public void increment(View view) {
         quantity = quantity + 1;
         displayQuantity(quantity);
     }
@@ -100,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * This method is called when the decrement button is clicked.
      */
-    public void decrement(View view){
+    public void decrement(View view) {
         quantity = quantity - 1;
         displayQuantity(quantity);
     }
